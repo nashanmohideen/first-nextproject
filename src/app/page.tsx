@@ -15,7 +15,7 @@ const slides = imageUrls.map((url, index) => (
   <img
     key={index}
     src={url}
-    className="rounded-r-lg rounded-l-sm p-3 object-center"
+    className="rounded-lg p-3 object-center"
   />
 ));
 
@@ -32,7 +32,7 @@ export default function Home() {
         Etiam ac turpis massa. Fusce eget odio varius, scelerisque lacus a,
         aliquam justo.
       </Text>{" "}
-      <div className="hidden md:grid md:grid-cols-3 lg:grid lg:grid-cols-3 w-[700px] h-[200px] items-center rounded-lg gap-2 bg-gray-800 p-3 ">
+      <div className="hidden md:grid md:grid-cols-3 lg:grid lg:grid-cols-3 w-[700px] h-[200px] items-center rounded-xl gap-2 bg-gray-800 p-3 ">
         {slides}
       </div>
       <Carousel slides={slides}></Carousel>
