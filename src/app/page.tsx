@@ -15,7 +15,7 @@ const slides = imageUrls.map((url, index) => (
   <img
     key={index}
     src={url}
-    className="rounded-r-lg rounded-l-sm p-3 border-2 border-white object-center"
+    className="rounded-r-lg rounded-l-sm p-3 object-center"
   />
 ));
 
